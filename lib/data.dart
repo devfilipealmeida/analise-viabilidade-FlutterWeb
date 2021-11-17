@@ -1,23 +1,23 @@
 const recentActivities = [
   {
     "icon": 'assets/drop.svg',
-    "label": 'Water Bill',
-    "amount": "\$120"
+    "label": 'Conta de água',
+    "amount": "R\$120"
   },
   {
     "icon": 'assets/salary.svg',
-    "label": 'Income Salary',
-    "amount": "\$4500"
+    "label": 'Pagamento de salário',
+    "amount": "R\$4500"
   },
   {
     "icon": 'assets/electricity.svg',
-    "label": 'Electric Bill',
-    "amount": "\$150"
+    "label": 'Conta de água',
+    "amount": "R\$150"
   },
   {
     "icon": 'assets/wifi.svg',
-    "label": 'Internet Bill',
-    "amount": "\$60"
+    "label": 'Conta de Internet',
+    "amount": "R\$60"
   },
 ];
 

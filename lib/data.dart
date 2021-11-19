@@ -1,21 +1,21 @@
 const recentActivities = [
   {
-    "icon": 'assets/drop.svg',
+    "icon": 'assets/images/drop.svg',
     "label": 'Conta de água',
     "amount": "R\$120"
   },
   {
-    "icon": 'assets/salary.svg',
+    "icon": 'assets/images/salary.svg',
     "label": 'Pagamento de salário',
     "amount": "R\$4500"
   },
   {
-    "icon": 'assets/electricity.svg',
+    "icon": 'assets/images/electricity.svg',
     "label": 'Conta de água',
     "amount": "R\$150"
   },
   {
-    "icon": 'assets/wifi.svg',
+    "icon": 'assets/images/wifi.svg',
     "label": 'Conta de Internet',
     "amount": "R\$60"
   },
@@ -23,14 +23,14 @@ const recentActivities = [
 
 const upcomingPayments = [
   {
-    "icon": 'assets/home.svg',
-    "label": 'Home Rent',
-    "amount": "\$1500"
+    "icon": 'assets/images/home.svg',
+    "label": 'Aluguel',
+    "amount": "R\$1500"
   },
   {
-    "icon": 'assets/salary.svg',
-    "label": 'Car Insurance',
-    "amount": "\$150"
+    "icon": 'assets/images/salary.svg',
+    "label": 'Seguro Veicular',
+    "amount": "R\$150"
   },
 ];
 

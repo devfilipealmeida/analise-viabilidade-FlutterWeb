@@ -39,7 +39,7 @@ class PaymentDetailList extends StatelessWidget {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
-            PrimaryText(text: 'Atividades Recentes', size: 18, fontWeight: FontWeight.w800,),
+            PrimaryText(text: 'Pagamentos Futuros', size: 18, fontWeight: FontWeight.w800,),
             PrimaryText(text: '17 Mar 2021', size: 14, fontWeight: FontWeight.w400, color: AppColors.
             secondary,)
           ],
@@ -52,6 +52,28 @@ class PaymentDetailList extends StatelessWidget {
             icon: recentActivities[index]["icon"],
             label: recentActivities[index]["label"],
             amount: recentActivities[index]["amount"],
+          ) ),
+        ),
+        SizedBox(
+          height: SizeConfig.blockSizeVertical! * 5,
+        ),
+
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: const [
+            PrimaryText(text: 'Atividades Recentes', size: 18, fontWeight: FontWeight.w800,),
+            PrimaryText(text: '17 Mar 2021', size: 14, fontWeight: FontWeight.w400, color: AppColors.
+            secondary,)
+          ],
+        ),
+        SizedBox(
+          height: SizeConfig.blockSizeVertical! * 2,
+        ),
+        Column(
+          children: List.generate(upcomingPayments.length, (index) => PaymentListTile(
+            icon: upcomingPayments[index]["icon"],
+            label: upcomingPayments[index]["label"],
+            amount: upcomingPayments[index]["amount"],
           ) ),
         ),       
       ],
